@@ -1,0 +1,517 @@
+local BLGO36V2 = Instance.new("ScreenGui")
+local MAIN = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TOOL = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+local S = Instance.new("TextLabel")
+local S_2 = Instance.new("TextLabel")
+local X = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local LOG = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local SPEED100 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local JUMP100 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local SPEED = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local fly = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local NOCLIP = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local OPEN = Instance.new("Frame")
+local OPENTOOL = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_11 = Instance.new("UICorner")
+
+BLGO36V2.Name = "BLGO36 V2"
+BLGO36V2.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+BLGO36V2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MAIN.Name = "MAIN"
+MAIN.Parent = BLGO36V2
+MAIN.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MAIN.Position = UDim2.new(0.228070199, 0, 0.307692289, 0)
+MAIN.Size = UDim2.new(0, 495, 0, 229)
+MAIN.Active = true
+MAIN.Draggable = true
+
+UICorner.Parent = MAIN
+
+TOOL.Name = "TOOL"
+TOOL.Parent = MAIN
+TOOL.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+TOOL.Position = UDim2.new(0.0141414106, 0, 0.0305677056, 0)
+TOOL.Size = UDim2.new(0, 482, 0, 215)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(85, 170, 255))}
+UIGradient.Parent = TOOL
+
+UICorner_2.Parent = TOOL
+
+S.Name = "S"
+S.Parent = TOOL
+S.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+S.BackgroundTransparency = 1.000
+S.Position = UDim2.new(0.769709587, 0, 0.865116298, 0)
+S.Size = UDim2.new(0, 200, 0, 50)
+S.Font = Enum.Font.SourceSans
+S.Text = "*"
+S.TextColor3 = Color3.fromRGB(0, 0, 0)
+S.TextScaled = true
+S.TextSize = 14.000
+S.TextStrokeColor3 = Color3.fromRGB(85, 170, 255)
+S.TextStrokeTransparency = 0.000
+S.TextWrapped = true
+
+S_2.Name = "S"
+S_2.Parent = TOOL
+S_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+S_2.BackgroundTransparency = 1.000
+S_2.Position = UDim2.new(-0.186721921, 0, 0.865116298, 0)
+S_2.Size = UDim2.new(0, 200, 0, 50)
+S_2.Font = Enum.Font.SourceSans
+S_2.Text = "*"
+S_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+S_2.TextScaled = true
+S_2.TextSize = 14.000
+S_2.TextStrokeColor3 = Color3.fromRGB(85, 170, 255)
+S_2.TextStrokeTransparency = 0.000
+S_2.TextWrapped = true
+
+X.Name = "X"
+X.Parent = MAIN
+X.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+X.BorderColor3 = Color3.fromRGB(85, 170, 255)
+X.Position = UDim2.new(0.911549687, 0, 0.0270260479, 0)
+X.Size = UDim2.new(0, 37, 0, 37)
+X.Font = Enum.Font.Bangers
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(85, 170, 255)
+X.TextScaled = true
+X.TextSize = 14.000
+X.TextStrokeTransparency = 0.000
+X.TextWrapped = true
+
+UICorner_3.Parent = X
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(85, 170, 255))}
+UIGradient_2.Parent = X
+
+LOG.Name = "LOG"
+LOG.Parent = MAIN
+LOG.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+LOG.Position = UDim2.new(0.0141414143, 0, 0.0305676758, 0)
+LOG.Size = UDim2.new(0, 444, 0, 36)
+LOG.Font = Enum.Font.Bangers
+LOG.Text = "BLGO36 ROBLOC HACK V2"
+LOG.TextColor3 = Color3.fromRGB(85, 170, 255)
+LOG.TextScaled = true
+LOG.TextSize = 14.000
+LOG.TextStrokeTransparency = 0.000
+LOG.TextWrapped = true
+
+UICorner_4.Parent = LOG
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(85, 170, 255))}
+UIGradient_3.Parent = LOG
+
+SPEED100.Name = "SPEED100"
+SPEED100.Parent = MAIN
+SPEED100.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SPEED100.Position = UDim2.new(0.122253664, 0, 0.223282874, 0)
+SPEED100.Size = UDim2.new(0, 171, 0, 43)
+SPEED100.Font = Enum.Font.Bangers
+SPEED100.Text = "SPEED 100"
+SPEED100.TextColor3 = Color3.fromRGB(0, 0, 0)
+SPEED100.TextScaled = true
+SPEED100.TextSize = 14.000
+SPEED100.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+SPEED100.TextStrokeTransparency = 0.000
+SPEED100.TextWrapped = true
+
+UICorner_5.Parent = SPEED100
+
+JUMP100.Name = "JUMP100"
+JUMP100.Parent = MAIN
+JUMP100.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+JUMP100.Position = UDim2.new(0.532354653, 0, 0.223282874, 0)
+JUMP100.Size = UDim2.new(0, 171, 0, 43)
+JUMP100.Font = Enum.Font.Bangers
+JUMP100.Text = "JUMP 100"
+JUMP100.TextColor3 = Color3.fromRGB(0, 0, 0)
+JUMP100.TextScaled = true
+JUMP100.TextSize = 14.000
+JUMP100.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+JUMP100.TextStrokeTransparency = 0.000
+JUMP100.TextWrapped = true
+
+UICorner_6.Parent = JUMP100
+
+SPEED.Name = "SPEED"
+SPEED.Parent = MAIN
+SPEED.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SPEED.Position = UDim2.new(0.122253664, 0, 0.411055773, 0)
+SPEED.Size = UDim2.new(0, 171, 0, 17)
+SPEED.Font = Enum.Font.Bangers
+SPEED.Text = "UNSPEED"
+SPEED.TextColor3 = Color3.fromRGB(0, 0, 0)
+SPEED.TextScaled = true
+SPEED.TextSize = 14.000
+SPEED.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+SPEED.TextStrokeTransparency = 0.000
+SPEED.TextWrapped = true
+
+UICorner_7.Parent = SPEED
+
+fly.Name = "fly"
+fly.Parent = MAIN
+fly.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+fly.Position = UDim2.new(0.122253664, 0, 0.572627842, 0)
+fly.Size = UDim2.new(0, 171, 0, 43)
+fly.Font = Enum.Font.Bangers
+fly.Text = "FLY"
+fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+fly.TextScaled = true
+fly.TextSize = 14.000
+fly.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+fly.TextStrokeTransparency = 0.000
+fly.TextWrapped = true
+
+UICorner_8.Parent = fly
+
+NOCLIP.Name = "NOCLIP"
+NOCLIP.Parent = MAIN
+NOCLIP.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NOCLIP.Position = UDim2.new(0.532354653, 0, 0.572627842, 0)
+NOCLIP.Size = UDim2.new(0, 171, 0, 43)
+NOCLIP.Font = Enum.Font.Bangers
+NOCLIP.Text = "NOCLIP"
+NOCLIP.TextColor3 = Color3.fromRGB(0, 0, 0)
+NOCLIP.TextScaled = true
+NOCLIP.TextSize = 14.000
+NOCLIP.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+NOCLIP.TextStrokeTransparency = 0.000
+NOCLIP.TextWrapped = true
+
+UICorner_9.Parent = NOCLIP
+
+OPEN.Name = "OPEN"
+OPEN.Parent = BLGO36V2
+OPEN.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OPEN.Position = UDim2.new(0, 0, 0.277907968, 0)
+OPEN.Size = UDim2.new(0, 172, 0, 54)
+
+OPENTOOL.Name = "OPENTOOL"
+OPENTOOL.Parent = OPEN
+OPENTOOL.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+OPENTOOL.Position = UDim2.new(0.0293243546, 0, 0.0879116803, 0)
+OPENTOOL.Size = UDim2.new(0, 161, 0, 43)
+OPENTOOL.Font = Enum.Font.Bangers
+OPENTOOL.Text = "OPEN"
+OPENTOOL.TextColor3 = Color3.fromRGB(85, 170, 255)
+OPENTOOL.TextScaled = true
+OPENTOOL.TextSize = 14.000
+OPENTOOL.TextStrokeTransparency = 0.000
+OPENTOOL.TextWrapped = true
+
+UICorner_10.Parent = OPENTOOL
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(85, 170, 255))}
+UIGradient_4.Parent = OPENTOOL
+
+UICorner_11.Parent = OPEN
+
+OPENTOOL.MouseButton1Down:connect(function()
+	MAIN.Visible = true
+end)
+
+X.MouseButton1Down:connect(function()
+	MAIN.Visible = false
+end)
+
+SPEED100.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+end)
+
+JUMP100.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+end)
+
+SPEED.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+NOCLIP.MouseButton1Down:connect(function()
+	local BLGO36V2 = Instance.new("ScreenGui")
+local MAIN = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TOOL = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+local S = Instance.new("TextLabel")
+local S_2 = Instance.new("TextLabel")
+local X = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local LOG = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local SPEED100 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local JUMP100 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local SPEED = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local fly = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local NOCLIP = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local OPEN = Instance.new("Frame")
+local OPENTOOL = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_11 = Instance.new("UICorner")
+
+--Properties:
+
+BLGO36V2.Name = "BLGO36 V2"
+BLGO36V2.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+BLGO36V2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MAIN.Name = "MAIN"
+MAIN.Parent = BLGO36V2
+MAIN.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MAIN.Position = UDim2.new(0.228070199, 0, 0.307692289, 0)
+MAIN.Size = UDim2.new(0, 495, 0, 229)
+MAIN.Active = true
+MAIN.Draggable = true
+
+UICorner.Parent = MAIN
+
+TOOL.Name = "TOOL"
+TOOL.Parent = MAIN
+TOOL.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+TOOL.Position = UDim2.new(0.0141414106, 0, 0.0305677056, 0)
+TOOL.Size = UDim2.new(0, 482, 0, 215)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(85, 170, 255))}
+UIGradient.Parent = TOOL
+
+UICorner_2.Parent = TOOL
+
+S.Name = "S"
+S.Parent = TOOL
+S.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+S.BackgroundTransparency = 1.000
+S.Position = UDim2.new(0.769709587, 0, 0.865116298, 0)
+S.Size = UDim2.new(0, 200, 0, 50)
+S.Font = Enum.Font.SourceSans
+S.Text = "*"
+S.TextColor3 = Color3.fromRGB(0, 0, 0)
+S.TextScaled = true
+S.TextSize = 14.000
+S.TextStrokeColor3 = Color3.fromRGB(85, 170, 255)
+S.TextStrokeTransparency = 0.000
+S.TextWrapped = true
+
+S_2.Name = "S"
+S_2.Parent = TOOL
+S_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+S_2.BackgroundTransparency = 1.000
+S_2.Position = UDim2.new(-0.186721921, 0, 0.865116298, 0)
+S_2.Size = UDim2.new(0, 200, 0, 50)
+S_2.Font = Enum.Font.SourceSans
+S_2.Text = "*"
+S_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+S_2.TextScaled = true
+S_2.TextSize = 14.000
+S_2.TextStrokeColor3 = Color3.fromRGB(85, 170, 255)
+S_2.TextStrokeTransparency = 0.000
+S_2.TextWrapped = true
+
+X.Name = "X"
+X.Parent = MAIN
+X.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+X.BorderColor3 = Color3.fromRGB(85, 170, 255)
+X.Position = UDim2.new(0.911549687, 0, 0.0270260479, 0)
+X.Size = UDim2.new(0, 37, 0, 37)
+X.Font = Enum.Font.Bangers
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(85, 170, 255)
+X.TextScaled = true
+X.TextSize = 14.000
+X.TextStrokeTransparency = 0.000
+X.TextWrapped = true
+
+UICorner_3.Parent = X
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(85, 170, 255))}
+UIGradient_2.Parent = X
+
+LOG.Name = "LOG"
+LOG.Parent = MAIN
+LOG.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+LOG.Position = UDim2.new(0.0141414143, 0, 0.0305676758, 0)
+LOG.Size = UDim2.new(0, 444, 0, 36)
+LOG.Font = Enum.Font.Bangers
+LOG.Text = "BLGO36 ROBLOC HACK V2"
+LOG.TextColor3 = Color3.fromRGB(85, 170, 255)
+LOG.TextScaled = true
+LOG.TextSize = 14.000
+LOG.TextStrokeTransparency = 0.000
+LOG.TextWrapped = true
+
+UICorner_4.Parent = LOG
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(85, 170, 255))}
+UIGradient_3.Parent = LOG
+
+SPEED100.Name = "SPEED100"
+SPEED100.Parent = MAIN
+SPEED100.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SPEED100.Position = UDim2.new(0.122253664, 0, 0.223282874, 0)
+SPEED100.Size = UDim2.new(0, 171, 0, 43)
+SPEED100.Font = Enum.Font.Bangers
+SPEED100.Text = "SPEED 100"
+SPEED100.TextColor3 = Color3.fromRGB(0, 0, 0)
+SPEED100.TextScaled = true
+SPEED100.TextSize = 14.000
+SPEED100.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+SPEED100.TextStrokeTransparency = 0.000
+SPEED100.TextWrapped = true
+
+UICorner_5.Parent = SPEED100
+
+JUMP100.Name = "JUMP100"
+JUMP100.Parent = MAIN
+JUMP100.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+JUMP100.Position = UDim2.new(0.532354653, 0, 0.223282874, 0)
+JUMP100.Size = UDim2.new(0, 171, 0, 43)
+JUMP100.Font = Enum.Font.Bangers
+JUMP100.Text = "JUMP 100"
+JUMP100.TextColor3 = Color3.fromRGB(0, 0, 0)
+JUMP100.TextScaled = true
+JUMP100.TextSize = 14.000
+JUMP100.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+JUMP100.TextStrokeTransparency = 0.000
+JUMP100.TextWrapped = true
+
+UICorner_6.Parent = JUMP100
+
+SPEED.Name = "SPEED"
+SPEED.Parent = MAIN
+SPEED.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SPEED.Position = UDim2.new(0.122253664, 0, 0.411055773, 0)
+SPEED.Size = UDim2.new(0, 171, 0, 17)
+SPEED.Font = Enum.Font.Bangers
+SPEED.Text = "UNSPEED"
+SPEED.TextColor3 = Color3.fromRGB(0, 0, 0)
+SPEED.TextScaled = true
+SPEED.TextSize = 14.000
+SPEED.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+SPEED.TextStrokeTransparency = 0.000
+SPEED.TextWrapped = true
+
+UICorner_7.Parent = SPEED
+
+fly.Name = "fly"
+fly.Parent = MAIN
+fly.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+fly.Position = UDim2.new(0.122253664, 0, 0.572627842, 0)
+fly.Size = UDim2.new(0, 171, 0, 43)
+fly.Font = Enum.Font.Bangers
+fly.Text = "FLY"
+fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+fly.TextScaled = true
+fly.TextSize = 14.000
+fly.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+fly.TextStrokeTransparency = 0.000
+fly.TextWrapped = true
+
+UICorner_8.Parent = fly
+
+NOCLIP.Name = "NOCLIP"
+NOCLIP.Parent = MAIN
+NOCLIP.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NOCLIP.Position = UDim2.new(0.532354653, 0, 0.572627842, 0)
+NOCLIP.Size = UDim2.new(0, 171, 0, 43)
+NOCLIP.Font = Enum.Font.Bangers
+NOCLIP.Text = "NOCLIP"
+NOCLIP.TextColor3 = Color3.fromRGB(0, 0, 0)
+NOCLIP.TextScaled = true
+NOCLIP.TextSize = 14.000
+NOCLIP.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+NOCLIP.TextStrokeTransparency = 0.000
+NOCLIP.TextWrapped = true
+
+UICorner_9.Parent = NOCLIP
+
+OPEN.Name = "OPEN"
+OPEN.Parent = BLGO36V2
+OPEN.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OPEN.Position = UDim2.new(0, 0, 0.277907968, 0)
+OPEN.Size = UDim2.new(0, 172, 0, 54)
+
+OPENTOOL.Name = "OPENTOOL"
+OPENTOOL.Parent = OPEN
+OPENTOOL.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+OPENTOOL.Position = UDim2.new(0.0293243546, 0, 0.0879116803, 0)
+OPENTOOL.Size = UDim2.new(0, 161, 0, 43)
+OPENTOOL.Font = Enum.Font.Bangers
+OPENTOOL.Text = "OPEN"
+OPENTOOL.TextColor3 = Color3.fromRGB(85, 170, 255)
+OPENTOOL.TextScaled = true
+OPENTOOL.TextSize = 14.000
+OPENTOOL.TextStrokeTransparency = 0.000
+OPENTOOL.TextWrapped = true
+
+UICorner_10.Parent = OPENTOOL
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(85, 170, 255))}
+UIGradient_4.Parent = OPENTOOL
+
+UICorner_11.Parent = OPEN
+
+OPENTOOL.MouseButton1Down:connect(function()
+	MAIN.Visible = true
+end)
+
+X.MouseButton1Down:connect(function()
+	MAIN.Visible = false
+end)
+
+SPEED100.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+end)
+
+JUMP100.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+end)
+
+SPEED.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+		NOCLIP = false
+		game:GetService('RunService').Stepped:connect(function()
+			if NOCLIP then
+				game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+			end
+		end)
+		plr = game.Players.LocalPlayer
+		mouse = plr:GetMouse()
+		mouse.KeyDown:connect(function(key)
+
+			if key == "e" then
+				NOCLIP = not NOCLIP
+				game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+			end
+		end)
+		print('Loaded')
+		print('Press "E" to noclip')
+	end)
